@@ -1,12 +1,12 @@
 <template>
-	<div class="">		
+	<div class="">
 		<div class="banner">
 			<el-carousel trigger="click" height="600px" arrow="nerver">
 			    <el-carousel-item>
 					<div class="banner1">
 						<img src="@/assets/indexImg/banner9.jpg" alt="">
 						<div class="banner_test">
-							<div class="banner_title">新网站建设服务</div>
+							<div class="banner_title">网站建设服务</div>
 							<div class="banner_text">
 								多年专业建站经验，您所有建站烦恼，我们用设计提示企业
 								和产品，我们是团结的团队，是服务保障系统
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 				</el-carousel-item>
-				
+
 				<el-carousel-item>
 					<div class="banner1">
 						<img src="@/assets/indexImg/banner7.jpg" alt="">
@@ -46,7 +46,7 @@
 				</el-carousel-item>
 			</el-carousel>
 		</div>
-		
+
 		<div class="sort">
 			<div class="sort_column">
 				<div class="left_column">
@@ -62,13 +62,13 @@
 						<el-button>了解更多</el-button>
 					</div> -->
 				</div>
-				
+
 				<div class="right_column sort_img1"></div>
 			</div>
-			
+
 			<div class="sort_column">
 				<div class="right_column sort_img2"></div>
-				
+
 				<div class="left_column">
 					<div class="sort_title" style="margin-bottom:10px;">PC  商场</div>
 					<div class="sort_tip">助力商家轻松打造独立的营销型商城系统</div>
@@ -83,7 +83,7 @@
 					</div> -->
 				</div>
 			</div>
-			
+
 			<div class="sort_column">
 				<div class="left_column">
 					<div class="sort_title" style="margin-bottom:10px;">H5  营销游戏</div>
@@ -98,13 +98,13 @@
 						<el-button>了解更多</el-button>
 					</div> -->
 				</div>
-				
+
 				<div class="right_column sort_img3"></div>
 			</div>
-			
+
 			<div class="sort_column">
 				<div class="right_column sort_img4"></div>
-				
+
 				<div class="left_column">
 					<div class="sort_title" style="margin-bottom:10px;">官网小程序</div>
 					<div class="sort_tip">简单、易用的企业展示到店版+预约版</div>
@@ -120,7 +120,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="banner trade">
 			<div class="trade_box">
 				<div class="trade_test">全行业都可以用我们</div>
@@ -129,13 +129,13 @@
 					<div class="trade_img" style="width:37%;"><img src="@/assets/indexImg/banner2.jpg" alt=""></div>
 					<div class="trade_img" style="width:22%;"><img src="@/assets/indexImg/banner3.jpg" alt=""></div>
 				</div>
-				
+
 				<div class="trade_column">
 					<div class="trade_img" style="width:22%;"><img src="@/assets/indexImg/banner4.jpg" alt=""></div>
 					<div class="trade_img" style="width:37%;"><img src="@/assets/indexImg/banner5.jpg" alt=""></div>
 					<div class="trade_img" style="width:39%;"><img src="@/assets/indexImg/banner6.jpg" alt=""></div>
 				</div>
-				
+
 				<!-- <div class="serve"><button>更多行业可咨询我们的客服</button></div> -->
 			</div>
 		</div>
@@ -146,7 +146,7 @@
   export default {
     data() {
       return {
-		
+
       };
     },
     methods: {
@@ -158,7 +158,7 @@
   }
 </script>
 
-<style scoped>	
+<style scoped>
 	.banner{
 		min-width:1200px;
 		margin-bottom:100px;
@@ -216,7 +216,7 @@
 		justify-content: center;
 		line-height:1.8;
 	}
-	
+
 	.sort{
 		max-width: 1200px;
 		min-width:1200px;
@@ -272,14 +272,14 @@
 	.sort_img4{
 		background: url(../../assets/indexImg/banner13.jpg)no-repeat;
 	}
-	
-	
-	
+
+
+
 	.trade{
 		width:100%;
 		height:750px;
 		background: url(../../assets/indexImg/banner8.jpg)no-repeat;
-		background-size:100% 100%; 
+		background-size:100% 100%;
 		display:flex;
 		align-items:center;
 		justify-content:center;
@@ -305,8 +305,8 @@
 	.trade_img{
 		height:170px;
 	}
-	
-	
+
+
 	.serve{
 		margin-top:60px;
 	}
