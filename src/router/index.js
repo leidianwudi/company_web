@@ -36,13 +36,23 @@ const routes = [
 			meta:{title: '福汇聚_关于我们'}
 		}]
 	},
+	{
+		path: "/game",
+		component: () => import("../views/game/index"),
+		name: "game",
+		meta:{title: '58消消乐'}
+	}
 ];
 
 const router = new VueRouter({
 	linkActiveClass: 'active_navBar',
 	mode: "hash",
 	base: process.env.BASE_URL,
-	routes
+	routes,
+	
+	scrollBehavior (to, from, savedPosition) {
+		return { x: 0, y: 0}
+	}
 });
 
 export default router;
