@@ -5,9 +5,12 @@
 		</div>
 		
 		<div class="column">
-			<div class="title">小程序定制服务</div>
+<!-- 			<div class="title_column">
+				<div class="title title_active" @mouseenter="changeActive($event)" @mouseleave="removeActive($event)">消消乐</div>
+				<div class="title" @mouseenter="changeActive($event)" @mouseleave="removeActive($event)">小程序</div>
+			</div> -->
 			<div class="app">
-				<div class="app_box">
+<!-- 				<div class="app_box">
 					<div class="app_img"><img src="@/assets/web3/sort1.jpg" alt=""></div>
 					<div class="app_test">
 						<div class="app_title">百度小程序</div>
@@ -16,7 +19,18 @@
 							精准连接用户，无需下载安装便可享受指挥超前的使用体验。
 						</div>
 					</div>
+				</div> -->
+				<div class="app_box">
+					<div class="app_img"><img src="@/assets/web3/ic_launcher.png" alt=""></div>
+					<div class="app_test">
+						<div class="app_title">小游戏</div>
+						<div class="app_text">
+							人与万物的开放生态，依托全域流量，
+							精准连接用户，无需下载安装便可享受指挥超前的游戏体验。
+						</div>
+					</div>
 				</div>
+				
 				<div class="app_box">
 					<div class="app_img"><img src="@/assets/web3/sort2.jpg" alt=""></div>
 					<div class="app_test">
@@ -36,6 +50,29 @@
 		</div>
 		
 		<div class="sort">
+			
+			<div class="sort_title">小游戏</div>
+			
+			<div class="sort_box" style="margin-bottom:100px;">
+				<div class="sort_img"><img src="@/assets/web3/works4.jpg" alt=""></div>
+				<div class="sort_text" style="display: flex; align-items: center;">
+					<div style="position: relative;">
+						<div class="sort_explain" style="margin:0;">xiaoxiaole game</div>
+						<div class="sort_titile">58消消乐</div>
+						<div class="sort_explain">
+							放开那村长！顺着藤蔓前往”来自星星”的云端之上~消灭各种障碍，收集足够多的金色豆荚，
+							去拯救神秘的村长大大！轻松滑动手指即可操作,玩法简单易上手!。
+						</div>
+						<div class="sort_explain">
+							无流量困扰，无需联网也能随时随地开心消消乐!游戏中设计大量Q萌有爱的小动物，
+							炫目华丽的精美特效，清新亮丽的甜蜜画风，意料之外的刺激障碍，非常值得体验…
+						</div>
+						<div class="more" @click.stop="toGame">更多&#62;&#62;</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="sort_title">微信小程序</div>
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/web3/works1.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -103,6 +140,24 @@
 </template>
 
 <script>
+export default{
+	data() {
+		return {
+			
+		}
+	},
+	methods:{
+		changeActive($event) {
+			$event.currentTarget.className = 'title title_active';
+		},
+		removeActive($event) {
+			$event.currentTarget.className = 'title';
+		},
+		toGame(){
+			this.$router.push({path:'/game'})
+		}
+	}
+}
 </script>
 
 <style scoped>
@@ -120,10 +175,28 @@
 		padding:100px 0;
 		box-sizing: border-box;
 	}
+	.title_column{
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		margin:auto;
+		width:30%;
+	}
 	.title{
-		font-size:30px;
+		font-size:16px;
 		margin-bottom:80px;
-		color:#333333;
+		color:#666666;
+		width:100px;
+		height:46px;
+		border-radius:5px;
+		padding:0 8px;
+		box-sizing:border-box;
+		line-height:46px;
+		cursor:pointer;
+	}
+	.title_active{
+		background-color:#076CE0;
+		color:#fff;
 	}
 	.app{
 		display:flex;
@@ -167,7 +240,11 @@
 		max-width: 1200px;
 		min-width:1200px;
 		width:60%;
-		margin:100px auto 0 auto;
+		margin:0 auto;
+	}
+	.sort_title{
+		font-size:30px;
+		color:#333333;
 	}
 	.sort_box{
 		display:flex;
@@ -194,5 +271,12 @@
 		color: #333333;
 		font-size:22px;
 		margin-bottom:80px;
+	}
+	.more{
+		position:absolute;
+		bottom:0;
+		right:0;
+		color:#009FE9;
+		cursor:pointer;
 	}
 </style>
