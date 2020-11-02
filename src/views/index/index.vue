@@ -12,7 +12,22 @@
 		</div>
 		<router-view></router-view>
 		<div class="footer">
-			<div>©2020 - 福建福汇聚科技有限公司  版权所有</div>
+			<!-- <div>©2020 - 福建福汇聚科技有限公司  版权所有</div> -->
+			<div class="footer_column" style="margin-bottom:20px;">
+				<div>公司名称：福建福汇聚科技有限公司</div>
+				<div>地址：福建省福州</div>
+				<div>联系电话：18971533922</div>
+			</div>
+			
+			<div class="footer_column">
+				<div>
+					KPPW2.2 Copyright © 2020 福建福汇聚科技有限公司.
+					All rights reserved
+				</div>
+				<div style="color: #009FE9;">
+					闽ICP备2020018107号-1
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -62,9 +77,16 @@
 	.footer{
 		min-width:1200px;
 		width:100%;
-		height:60px;
 		background-color:#333333;
 		color:#8B939E;
-		line-height:60px;
+		padding:20px 0;
+		box-sizing:border-box;
+	}
+	.footer_column{
+		display:flex;
+		justify-content:center;
+	}
+	.footer_column>div{
+		margin-right:20px;
 	}
 </style>
