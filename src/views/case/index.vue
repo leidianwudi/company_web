@@ -58,7 +58,7 @@
 				<div class="sort_text" style="display: flex; align-items: center;">
 					<div style="position: relative;">
 						<div class="sort_explain" style="margin:0;">xiaoxiaole game</div>
-						<div class="sort_titile">58消消乐</div>
+						<div class="sort_titile">58消消消</div>
 						<div class="sort_explain">
 							放开那村长！顺着藤蔓前往”来自星星”的云端之上~消灭各种障碍，收集足够多的金色豆荚，
 							去拯救神秘的村长大大！轻松滑动手指即可操作,玩法简单易上手!。
@@ -67,7 +67,29 @@
 							无流量困扰，无需联网也能随时随地开心消消乐!游戏中设计大量Q萌有爱的小动物，
 							炫目华丽的精美特效，清新亮丽的甜蜜画风，意料之外的刺激障碍，非常值得体验…
 						</div>
-						<div class="more" @click.stop="toGame">更多&#62;&#62;</div>
+						<div class="more" @click.stop="toGame(0)">更多&#62;&#62;</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="sort_box" style="margin-bottom:100px;">
+				<div class="sort_img"><img src="@/assets/web3/works5.jpg" alt=""></div>
+				<div class="sort_text" style="display: flex; align-items: center;">
+					<div style="position: relative;">
+						<div class="sort_explain" style="margin:0;">meiriguoyuan game</div>
+						<div class="sort_titile">每日果园</div>
+						<div class="sort_explain">
+							每日果园app是一款可以经营好自己的水果园来免费领取水果的游戏，水果爱护靠大家，
+							这里有很多水果树的种子，最开始玩家要领取自己的水果树，
+							每天浇水可以让水果树快速长大，还有就是进行打枝来进行护理可以让水果发育的更好，
+							完成这些任务就可以等待水果长出来了。
+						</div>
+						<div class="sort_explain">
+							你可以凭借自身出类拔萃的头脑智商完成一个又一个任务目标，这样便可收获满满。
+							可以在游戏中种植树苗，每天坚持给小树苗浇水就能领红包水果奖励。
+							简洁清新的画风配上经典不衰的玩法机制，带给玩家们空前美妙的乐趣。
+						</div>
+						<div class="more" @click.stop="toGame(1)">更多&#62;&#62;</div>
 					</div>
 				</div>
 			</div>
@@ -153,8 +175,11 @@ export default{
 		removeActive($event) {
 			$event.currentTarget.className = 'title';
 		},
-		toGame(){
-			this.$router.push({path:'/game'})
+		toGame(type){
+			let url = "";
+			if(type == 0) url = "/xiaoxiaoGame";
+			if(type == 1) url = "/guoyuanGame";
+			this.$router.push({path:url})
 		}
 	}
 }

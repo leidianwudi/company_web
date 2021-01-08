@@ -37,10 +37,16 @@ const routes = [
 		}]
 	},
 	{
-		path: "/game",
-		component: () => import("../views/game/index"),
-		name: "game",
-		meta:{title: '58消消乐'}
+		path: "/xiaoxiaoGame",
+		component: () => import("../views/xiaoxiaoGame/index"),
+		name: "xiaoxiaoGame",
+		meta:{title: '58消消消'}
+	},
+	{
+		path: "/guoyuanGame",
+		component: () => import("../views/guoyuanGame/index"),
+		name: "guoyuanGame",
+		meta:{title: '58消消消'}
 	}
 ];
 

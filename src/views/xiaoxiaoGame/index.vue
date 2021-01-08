@@ -10,7 +10,7 @@
 		
 		<div class="sort">
 			
-			<div class="sort_title">58消消乐</div>
+			<div class="sort_title">58消消消</div>
 			
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img1.jpg" alt=""></div>
@@ -127,6 +127,7 @@ export default{
 		width:100%;
 		height:300px;
 		color:#fff;
+		min-width:1024px;
 	}
 	
 	
