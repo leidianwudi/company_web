@@ -232,43 +232,43 @@
 
     }
     .test{
-      font-size:40px;
+      font-size:20px;
       padding:0 50px;
       line-height:2;
-      text-indent:2em;
+      text-indent:3em;
     }
     .sort{
       width: 100%;
     }
     .sort_column{
       width:100%;
-      height:1200px;
+      height:1500px;
     }
     .left_column{
       width:100%;
-      height:1200px;
+      height:1500px;
       padding: 0 15px;
     }
     .left_column>div{
       margin-bottom:10px;
     }
     .right_column{
-      margin-top: 100px;
+      margin-top: 300px;
       width:100%;
-      height:1000px;
+      height:1200px;
       padding: 0 50px;
     }
     .sort_title{
-      font-size:40px;
+      font-size:50px;
     }
     .sort_explain{
-      font-size:30px;
+      font-size:35px;
     }
     .sort_explain>div{
       margin-bottom:10px;
     }
     .func{
-      font-size:20px;
+      font-size:15px;
       margin: 0 40px;
     }
     .explain{
