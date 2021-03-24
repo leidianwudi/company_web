@@ -6,12 +6,12 @@
 			</div>
 			<div class="home" @click="toHome">官方主页</div>
 		</div>
-		
-		
+
+
 		<div class="sort">
-			
+
 			<div class="sort_title">58消消消</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img1.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img2.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -48,7 +48,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img3.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -65,7 +65,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img4.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -82,7 +82,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </template>
@@ -91,7 +91,7 @@
 export default{
 	data() {
 		return {
-			
+
 		}
 	},
 	methods:{
@@ -129,9 +129,9 @@ export default{
 		color:#fff;
 		min-width:1024px;
 	}
-	
-	
-	
+
+
+
 	.sort{
 		max-width: 1200px;
 		min-width:1200px;
@@ -168,4 +168,9 @@ export default{
 		font-size:22px;
 		margin-bottom:80px;
 	}
+
+  @media only screen and (max-width: 1200px){
+
+
+  }
 </style>

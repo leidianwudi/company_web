@@ -3,29 +3,29 @@
 		<div class="banner">
 			<img src="@/assets/web4/banner.jpg" alt="">
 		</div>
-		
+
 		<div class="column support">
 			<div class="support_box support_img1">
 				<div class="support_title">功能更新</div>
 				<div class="support_text">每日更新每周发布</div>
 			</div>
-			
+
 			<div class="support_box support_img2">
 				<div class="support_title">第三方发布</div>
 				<div class="support_text">联合一站云技术团队潜心研发</div>
 			</div>
-			
+
 			<div class="support_box support_img3">
 				<div class="support_title">技术干货</div>
 				<div class="support_text">网络技术教程干货</div>
 			</div>
-			
+
 			<div class="support_box support_img4">
 				<div class="support_title">公司通知</div>
 				<div class="support_text">官方通知公告</div>
 			</div>
 		</div>
-		
+
 		<div class="column">
 			<div class="news">
 				<div class="news_title">网站优化的4个错误做法</div>
@@ -38,7 +38,7 @@
 					<el-tag type="info" class="tag">功能更新</el-tag>
 				</div>
 			</div>
-			
+
 			<div class="news">
 				<div class="news_title">做网站推广，什么样的思路才是正确的？</div>
 				<div class="news_test">
@@ -51,7 +51,7 @@
 					<el-tag type="info" class="tag">功能更新</el-tag>
 				</div>
 			</div>
-			
+
 			<div class="news">
 				<div class="news_title">建设网站时一定要写好标题</div>
 				<div class="news_test">
@@ -63,7 +63,7 @@
 					<el-tag type="info" class="tag">第三方发布</el-tag>
 				</div>
 			</div>
-			
+
 			<div class="news">
 				<div class="news_title">如何让更多人访问你的企业网站</div>
 				<div class="news_test">
@@ -76,7 +76,7 @@
 					<el-tag type="info" class="tag">第三方发布</el-tag>
 				</div>
 			</div>
-			
+
 			<div class="news">
 				<div class="news_title">怎样做才能够得到更好的进行公司品牌网站建设呢？</div>
 				<div class="news_test">
@@ -87,7 +87,7 @@
 					<el-tag type="info" class="tag">新闻</el-tag>
 				</div>
 			</div>
-			
+
 			<div class="news">
 				<div class="news_title">商城网站建设是企业发展的基础与关键</div>
 				<div class="news_test">
@@ -112,7 +112,7 @@
 		min-width:1200px;
 		height:300px;
 	}
-	
+
 	.column{
 		max-width: 1200px;
 		min-width:1200px;
@@ -154,8 +154,9 @@
 	}
 	.support_text{
 		margin-top:10px;
-		font-size:14px;
+		font-size:18px;
 	}
+
 	.news{
 		padding:20px 0;
 		box-sizing:border-box;
@@ -163,6 +164,7 @@
 	}
 	.news_title{
 		position:relative;
+    font-size: 25px;
 	}
 	.news_title::after{
 		content: '2019-06-26';
@@ -177,11 +179,52 @@
 	}
 	.news_test{
 		margin:20px 0;
-		font-size:14px;
+		font-size:20px;
 		color:#878787;
 	}
 	.tag{
 		cursor:pointer;
 		margin-right:10px;
+    font-size: 18px;
 	}
+  @media only screen and (max-width: 1200px){
+    .banner{
+      height: 350px;
+      width: 100%;
+    }
+    .support{
+      width: 100%;
+    }
+    .support_box{
+      width: 21%;
+      margin: 0 20px;
+    }
+    .support_title{
+      font-size:30px;
+    }
+    .support_text{
+      font-size:19px;
+    }
+    .column{
+      width:100%;
+      padding:70px 0;
+    }
+    .news{
+      padding:30px 60px;
+    }
+    .news_title{
+      font-size: 20px;
+    }
+    .news_test{
+      margin:20px 0;
+      font-size:12px;
+      line-height: 1.5;
+    }
+    .tag{
+      font-size: 20px;
+    }
+
+
+  }
+
 </style>

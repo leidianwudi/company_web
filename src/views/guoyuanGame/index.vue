@@ -6,12 +6,12 @@
 			</div>
 			<div class="home" @click="toHome">官方主页</div>
 		</div>
-		
-		
+
+
 		<div class="sort">
-			
+
 			<div class="sort_title">每日果园</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img6.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img8.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/game/img7.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </template>
@@ -72,7 +72,7 @@
 export default{
 	data() {
 		return {
-			
+
 		}
 	},
 	methods:{
@@ -95,7 +95,7 @@ export default{
 		transform: translateY(-50%);
 		left:24%;
 		color:#fff;
-		font-size:24px;
+		font-size:30px;
 		font-family: "Times New Roman", Times, serif;
 		font-weight:bold;
 		cursor:pointer;
@@ -110,9 +110,9 @@ export default{
 		color:#fff;
 		min-width:1024px;
 	}
-	
-	
-	
+
+
+
 	.sort{
 		max-width: 1200px;
 		min-width:1200px;

@@ -3,7 +3,7 @@
 		<div class="banner">
 			<img src="@/assets/web5/banner.jpg" alt="">
 		</div>
-		
+
 		<div class="column">
 			<div class="title">关于我们</div>
 			<div class="test">
@@ -26,45 +26,45 @@
 				公司地址：福建省福州市鼓楼区，环球广场A区27楼 A座2705。
 			</div>
 		</div>
-		
+
 		<div class="sort">
 			<div class="sort_column">
 				<div class="left_column">
 					<div class="sort_title" style="margin-bottom:10px;">企业文化</div>
 					<div>
-						<div>愿景</div>
+						<div style="font-size: 25px">愿景</div>
 						<div class="sort_explain">帮助商家打造互联网营销闭环</div>
 					</div>
-					
+
 					<div>
-						<div>使命</div>
+						<div style="font-size: 25px">使命</div>
 						<div class="sort_explain">用科技成就10000家有文化的品牌，用智慧服务全球海内外千万商家。</div>
 					</div>
-					
+
 					<div>
-						<div>价值观</div>
+						<div style="font-size: 25px">价值观</div>
 						<div class="sort_explain">正直：尊重平等，积极乐观，待人以诚。</div>
 						<div class="sort_explain">务实：崇尚实干，开放包容，实事求是，专注。</div>
 						<div class="sort_explain">持续改进：热衷分享，敢于试错，乐于进取，拥抱变化。</div>
 						<div class="sort_explain">坦诚合作：对事不对人，互信互助，团结友爱。</div>
 					</div>
-					
+
 					<div>
-						<div>经营理念</div>
+						<div style="font-size: 25px">经营理念</div>
 						<div class="sort_explain">拒绝脸谱化，与客户一同成长，不断完善产品和服务，助力客户企业不断发展。</div>
 					</div>
-					
+
 					<div>
-						<div>管理理念</div>
+						<div style="font-size: 25px">管理理念</div>
 						<div class="sort_explain">充分尊重和信任员工，建立互信合作的团队，达到个人和公司的双赢。</div>
 					</div>
 
 				</div>
-				
+
 				<div class="right_column sort_img"></div>
 			</div>
 		</div>
-		
+
 		<div class="column">
 			<div class="title">安全解决方案</div>
 			<div class="func">
@@ -73,7 +73,7 @@
 			<div class="func">
 				公司安全研发团队联合360团队、安全狗团队，强强联合，打造SAAAS防护检测到优化抵御为一体的安全壁垒
 			</div>
-			
+
 			<div class="pc">
 				<div class="app">
 					<div class="shopping_img"><img src="@/assets/web5/gain1.jpg" alt=""></div>
@@ -81,21 +81,21 @@
 					<div class="explain">用户可以根据自身情况</div>
 					<div class="explain" style="margin-top:5px;">选择安全产品</div>
 				</div>
-				
+
 				<div class="app">
 					<div class="shopping_img"><img src="@/assets/web5/gain2.jpg" alt=""></div>
 					<div class="shopping_test">兼容性强</div>
 					<div class="explain">支持私有云、混合云的架构</div>
 					<div class="explain" style="margin-top:5px;">多种选择</div>
 				</div>
-				
+
 				<div class="app">
 					<div class="shopping_img"><img src="@/assets/web5/gain3.jpg" alt=""></div>
 					<div class="shopping_test">部署简单</div>
 					<div class="explain">部署简单方便，不影响现有业务</div>
 					<div class="explain" style="margin-top:5px;">无需改动代码</div>
 				</div>
-				
+
 				<div class="app">
 					<div class="shopping_img"><img src="@/assets/web5/gain4.jpg" alt=""></div>
 					<div class="shopping_test">持续更新</div>
@@ -104,7 +104,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 </template>
 
@@ -117,8 +117,8 @@
 		min-width:1200px;
 		height:300px;
 	}
-	
-	
+
+
 	.column{
 		min-width:1200px;
 		max-width:1200px;
@@ -128,23 +128,19 @@
 		box-sizing: border-box;
 	}
 	.title{
-		font-size:30px;
+		font-size:50px;
 		margin-bottom:30px;
 		color:#333333;
 	}
 	.test{
 		color:#666666;
-		font-size:14px;
+		font-size:20px;
 		text-align:left;
 		line-height:2.3;
 		text-indent:2em;
 	}
-	
-	
-	
-	
-	
-	.sort{
+
+  .sort{
 		max-width:1200px;
 		min-width:1200px;
 		width:60%;
@@ -152,47 +148,50 @@
 	}
 	.sort_column{
 		width:100%;
-		height:400px;
+		height:800px;
 		display:flex;
 		justify-content:space-between;
 		margin-bottom:100px;
 	}
 	.left_column{
-		width:40%;
-		height:400px;
+		width:48%;
+		height:800px;
 		display:flex;
 		flex-direction: column;
 		justify-content:center;
 		align-items: flex-start;
 	}
 	.left_column>div{
-		margin-bottom:30px;
+		margin-bottom:20px;
 		text-align:left;
 	}
 	.right_column{
 		width:50%;
-		height:400px;
+		height:800px;
 	}
 	.sort_title{
-		font-size:20px;
+		font-size:40px;
 	}
 	.sort_explain{
-		font-size:14px;
+		font-size:20px;
+    line-height:1.8;
 	}
 	.sort_explain>div{
-		margin-bottom:10px;
+		margin-bottom:5px;
 	}
 	.sort_img{
 		background: url(../../assets/web5/about.jpg)no-repeat;
+    margin-top: 100px;
 	}
-	
-	
+
+
+
 	.func{
 		text-align:center;
 		color:#666666;
-		font-size:14px;
+		font-size:20px;
 	}
-	
+
 	.pc{
 		display:flex;
 		justify-content:space-between;
@@ -203,7 +202,6 @@
 		width:25%;
 		margin-bottom:50px;
 	}
-	
 	.shopping_box{
 		padding:0 80px;
 		box-sizing:border-box;
@@ -214,10 +212,72 @@
 	}
 	.shopping_test{
 		margin-top:20px;
+    font-size: 20px;
 	}
 	.explain{
 		margin-top:10px;
 		color:#888888;
-		font-size:14px;
+		font-size:20px;
 	}
+  @media screen and (max-width:1200px){
+    .banner{
+      width:100%;
+      height:350px;
+    }
+    .column {
+      width: 100%;
+    }
+    .title{
+      font-size:50px;
+
+    }
+    .test{
+      font-size:40px;
+      padding:0 50px;
+      line-height:2;
+      text-indent:2em;
+    }
+    .sort{
+      width: 100%;
+    }
+    .sort_column{
+      width:100%;
+      height:1200px;
+    }
+    .left_column{
+      width:100%;
+      height:1200px;
+      padding: 0 15px;
+    }
+    .left_column>div{
+      margin-bottom:10px;
+    }
+    .right_column{
+      margin-top: 100px;
+      width:100%;
+      height:1000px;
+      padding: 0 50px;
+    }
+    .sort_title{
+      font-size:40px;
+    }
+    .sort_explain{
+      font-size:30px;
+    }
+    .sort_explain>div{
+      margin-bottom:10px;
+    }
+    .func{
+      font-size:20px;
+      margin: 0 40px;
+    }
+    .explain{
+      font-size:22px;
+    }
+    .shopping_test{
+      font-size:30px;
+    }
+
+  }
+
 </style>

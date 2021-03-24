@@ -18,7 +18,7 @@
 				<div>地址：福建省福州</div>
 				<div>联系电话：18971533922</div>
 			</div>
-			
+
 			<div class="footer_column">
 				<div>
 					KPPW2.2 Copyright © 2020 福建福汇聚科技有限公司.
@@ -38,7 +38,7 @@
 	},
     data() {
       return {
-		
+
       };
     },
     methods: {
@@ -47,7 +47,7 @@
   }
 </script>
 
-<style scoped>	
+<style scoped>
 	.head{
 		max-width:1200px;
 		min-width:1200px;
@@ -60,7 +60,7 @@
 	}
 	.company_name{
 		color: #009FE9;
-		font-size:32px;
+		font-size:40px;
 		cursor:pointer;
 	}
 	.nav_bar{
@@ -71,9 +71,27 @@
 		display:inline-block;
 		width:20%;
 		cursor:pointer;
+    font-size: 25px;
 	}
-	
-	
+  @media only screen and (max-width: 1200px){
+    .head{
+      height: 150px;
+    }
+    .company_name{
+      font-size:40px;
+      margin-left: 25px;
+    }
+    .nav_bar>span{
+      font-size: 23px;
+    }
+    .footer{
+      width: 100%;
+    }
+    .footer_column{
+      font-size: 20px;
+    }
+  }
+
 	.footer{
 		min-width:1200px;
 		width:100%;

@@ -21,14 +21,16 @@
 		min-width:1200px;
 		width:80%;
 		margin:auto;
-		height:120px;
+		height:1200px;
 		display:flex;
 		align-items:center;
 		justify-content:space-between;
-	}
+
+  }
+
 	.company_name{
 		color: #009FE9;
-		font-size:32px;
+		font-size:40px;
 		cursor:pointer;
 	}
 	.nav_bar{
@@ -40,4 +42,5 @@
 		width:20%;
 		cursor:pointer;
 	}
+
 </style>

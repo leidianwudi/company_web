@@ -28,16 +28,16 @@
 								互联网品牌传播、数字营销、会员管理、业务服务支撑
 							</div>
 							<div class="banner_sort">
-								<div class="sort_box">
+								<div class="sort_box" style="width: auto">
 									<div>网站建设</div>
 								</div>
-								<div class="sort_box">
+								<div class="sort_box" style="width: auto">
 									<div>手机网站</div>
 								</div>
-								<div class="sort_box">
+								<div class="sort_box" style="width: auto">
 									<div>小程序定制</div>
 								</div>
-								<div class="sort_box">
+								<div class="sort_box" style="width: auto">
 									<div>公众号定制</div>
 								</div>
 							</div>
@@ -186,7 +186,7 @@
 		margin-top:40px;
 		width:440px;
 		text-align:left;
-		font-size:18px;
+		font-size:25px;
 	}
 	.banner_btn{
 		margin-top:40px;
@@ -198,10 +198,11 @@
 		box-sizing:border-box;
 		border-radius:10px;
 		cursor:pointer;
+    font-size: 20px;
 	}
 	.banner_sort{
 		width:50%;
-		font-size:14px;
+		font-size:20px;
 		display:flex;
 		margin-top:40px;
 		justify-content:space-between;
@@ -247,14 +248,14 @@
 		height:400px;
 	}
 	.sort_title{
-		font-size:20px;
+		font-size:50px;
 	}
 	.sort_tip{
-		font-size:14px;
+		font-size:25px;
 		color:#999999;
 	}
 	.sort_explain{
-		font-size:15px;
+		font-size:20px;
 		color:#666666;
 	}
 	.sort_explain>div{
@@ -318,5 +319,46 @@
 		border-radius:5px;
 		cursor:pointer;
 	}
+
+  @media screen and (max-width: 1200px){
+    .banner{
+      width: 100%;
+    }
+    .banner_text{
+      width: 100%;
+      font-size:25px;
+    }
+    .banner_sort{
+      font-size:25px;
+    }
+    .banner_btn>button{
+      font-size: 25px;
+    }
+    .sort{
+      width:100%;
+      margin:auto;
+    }
+    .sort_column{
+      width:100%;
+    }
+    .sort_title{
+      font-size:40px;
+    }
+    .sort_tip{
+      font-size:30px;
+    }
+    .sort_explain{
+      font-size:25px;
+    }
+    .left_column{
+      margin: 0 20px;
+    }
+    .right_column{
+      margin: 0 20px;
+    }
+    .trade {
+      width: 100%;
+    }
+  }
 </style>
 

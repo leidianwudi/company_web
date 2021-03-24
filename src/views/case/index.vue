@@ -3,7 +3,7 @@
 		<div class="banner">
 			<img src="@/assets/web3/banner.jpg" alt="">
 		</div>
-		
+
 		<div class="column">
 <!-- 			<div class="title_column">
 				<div class="title title_active" @mouseenter="changeActive($event)" @mouseleave="removeActive($event)">消消乐</div>
@@ -30,7 +30,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="app_box">
 					<div class="app_img"><img src="@/assets/web3/sort2.jpg" alt=""></div>
 					<div class="app_test">
@@ -42,17 +42,17 @@
 					</div>
 				</div>
 			</div>
-			
+
 <!-- 			<div style="margin-top:100px;">
 				<el-button type="primary">立即注册</el-button>
 				<el-button>了解更多</el-button>
 			</div> -->
 		</div>
-		
+
 		<div class="sort">
-			
+
 			<div class="sort_title">小游戏</div>
-			
+
 			<div class="sort_box" style="margin-bottom:100px;">
 				<div class="sort_img"><img src="@/assets/web3/works4.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -71,7 +71,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box" style="margin-bottom:100px;">
 				<div class="sort_img"><img src="@/assets/web3/works5.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_title">微信小程序</div>
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/web3/works1.jpg" alt=""></div>
@@ -114,7 +114,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/web3/works2.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -135,7 +135,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="sort_box">
 				<div class="sort_img"><img src="@/assets/web3/works3.jpg" alt=""></div>
 				<div class="sort_text" style="display: flex; align-items: center;">
@@ -156,7 +156,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </template>
@@ -165,7 +165,7 @@
 export default{
 	data() {
 		return {
-			
+
 		}
 	},
 	methods:{
@@ -191,7 +191,7 @@ export default{
 		min-width:1200px;
 		height:300px;
 	}
-	
+
 	.column{
 		max-width: 1200px;
 		min-width:1200px;
@@ -251,16 +251,16 @@ export default{
 	}
 	.app_title{
 		color:#666666;
-		font-size:18px;
+		font-size:25px;
 		margin-bottom:10px;
 	}
 	.app_text{
 		color:#999999;
 		line-height:2;
-		font-size:14px;
+		font-size:18px;
 	}
-	
-	
+
+
 	.sort{
 		max-width: 1200px;
 		min-width:1200px;
@@ -268,7 +268,7 @@ export default{
 		margin:0 auto;
 	}
 	.sort_title{
-		font-size:30px;
+		font-size:40px;
 		color:#333333;
 	}
 	.sort_box{
@@ -288,13 +288,13 @@ export default{
 	}
 	.sort_explain{
 		color:#999999;
-		font-size:14px;
+		font-size:20px;
 		line-height:3;
 		margin-bottom:80px;
 	}
 	.sort_titile{
 		color: #333333;
-		font-size:22px;
+		font-size:30px;
 		margin-bottom:80px;
 	}
 	.more{
@@ -304,4 +304,55 @@ export default{
 		color:#009FE9;
 		cursor:pointer;
 	}
+
+  @media only screen and (max-width: 1200px){
+    .banner{
+      height: 350px;
+      width: 100%;
+    }
+    .column{
+      width: 100%;
+    }
+    .sort{
+      width: 100%;
+    }
+    .app_box{
+      margin: 20px 100px;
+      width: 100%;
+    }
+    .app_title{
+      font-size:35px;
+    }
+    .app_text{
+      font-size:30px;
+    }
+    .app_img{
+      padding: 0 50px;
+    }
+    .sort_text{
+      font-size:25px;
+    }
+    .sort_explain{
+      font-size:30px;
+      margin: 20px 0;
+      line-height:2;
+    }
+    .sort_title{
+      font-size:50px;
+    }
+    .sort_titile{
+      font-size:30px;
+      margin-bottom: 80px;
+    }
+    .sort_box{
+      padding: 100px 30px;
+    }
+    .sort_img{
+      padding-top: 150px;
+    }
+    .more{
+      font-size: 30px;
+    }
+
+  }
 </style>
