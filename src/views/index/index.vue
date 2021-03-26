@@ -16,7 +16,7 @@
 			<div class="footer_column" style="margin-bottom:20px;">
 				<div>公司名称：福建福汇聚科技有限公司</div>
 				<div>地址：福建省福州</div>
-				<div>联系电话：18971533922</div>
+				<div>联系电话：13665051855</div>
 			</div>
 
 			<div class="footer_column">
@@ -89,6 +89,17 @@
     }
     .footer_column{
       font-size: 20px;
+    }
+    .footer{
+      width:100%;
+    }
+    .footer_column{
+      display:flex;
+      justify-content:center;
+    }
+    .footer_column>div{
+      margin-right:20px;
+      font-size: 22px;
     }
   }
 

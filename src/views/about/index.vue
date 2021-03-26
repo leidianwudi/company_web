@@ -32,17 +32,17 @@
 				<div class="left_column">
 					<div class="sort_title" style="margin-bottom:10px;">企业文化</div>
 					<div>
-						<div style="font-size: 25px">愿景</div>
+            <div class="sort_item">愿景</div>
 						<div class="sort_explain">帮助商家打造互联网营销闭环</div>
 					</div>
 
 					<div>
-						<div style="font-size: 25px">使命</div>
+						<div class="sort_item">使命</div>
 						<div class="sort_explain">用科技成就10000家有文化的品牌，用智慧服务全球海内外千万商家。</div>
 					</div>
 
 					<div>
-						<div style="font-size: 25px">价值观</div>
+						<div class="sort_item">价值观</div>
 						<div class="sort_explain">正直：尊重平等，积极乐观，待人以诚。</div>
 						<div class="sort_explain">务实：崇尚实干，开放包容，实事求是，专注。</div>
 						<div class="sort_explain">持续改进：热衷分享，敢于试错，乐于进取，拥抱变化。</div>
@@ -50,12 +50,12 @@
 					</div>
 
 					<div>
-						<div style="font-size: 25px">经营理念</div>
+						<div class="sort_item">经营理念</div>
 						<div class="sort_explain">拒绝脸谱化，与客户一同成长，不断完善产品和服务，助力客户企业不断发展。</div>
 					</div>
 
 					<div>
-						<div style="font-size: 25px">管理理念</div>
+						<div class="sort_item">管理理念</div>
 						<div class="sort_explain">充分尊重和信任员工，建立互信合作的团队，达到个人和公司的双赢。</div>
 					</div>
 
@@ -153,6 +153,7 @@
 		justify-content:space-between;
 		margin-bottom:100px;
 	}
+
 	.left_column{
 		width:48%;
 		height:800px;
@@ -179,6 +180,9 @@
 	.sort_explain>div{
 		margin-bottom:5px;
 	}
+  .sort_item{
+    font-size: 25px;
+  }
 	.sort_img{
 		background: url(../../assets/web5/about.jpg)no-repeat;
     margin-top: 100px;
@@ -251,6 +255,9 @@
     }
     .left_column>div{
       margin-bottom:10px;
+    }
+    .sort_item{
+      font-size:40px;
     }
     .right_column{
       margin-top: 300px;

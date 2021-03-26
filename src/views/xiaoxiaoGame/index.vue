@@ -169,8 +169,4 @@ export default{
 		margin-bottom:80px;
 	}
 
-  @media only screen and (max-width: 1200px){
-
-
-  }
 </style>
