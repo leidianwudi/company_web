@@ -303,6 +303,7 @@ export default{
 		right:0;
 		color:#009FE9;
 		cursor:pointer;
+    font-size: 20px;
 	}
 
   @media only screen and (max-width: 1200px){
