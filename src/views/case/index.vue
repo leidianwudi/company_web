@@ -306,6 +306,7 @@ export default{
     font-size: 20px;
 	}
 
+  
   @media only screen and (max-width: 1200px){
     .banner{
       height: 350px;
