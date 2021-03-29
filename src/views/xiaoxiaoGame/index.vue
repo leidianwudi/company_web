@@ -139,7 +139,7 @@ export default{
 		margin:0 auto;
 	}
 	.sort_title{
-		font-size:30px;
+		font-size:40px;
 		color:#333333;
 	}
 	.sort_box{
@@ -159,14 +159,37 @@ export default{
 	}
 	.sort_explain{
 		color:#999999;
-		font-size:14px;
+		font-size:20px;
 		line-height:3;
 		margin-bottom:80px;
 	}
 	.sort_titile{
 		color: #333333;
-		font-size:22px;
+		font-size:28px;
 		margin-bottom:80px;
 	}
+  @media screen and (max-width: 1200px) {
+    .banner{
+      width: 100%;
+      height: 340px;
+    }
+    .home{
+      font-size: 35px;
+      top:60%;
+    }
+    .sort_box{
+      padding: 100px 25px;
+    }
+    .sort_title{
+      font-size: 50px;
+    }
+    .sort_explain{
+      font-size:25px;
+      line-height:2;
+    }
+    .sort_titile{
+      font-size: 40px;
+    }
+  }
 
 </style>

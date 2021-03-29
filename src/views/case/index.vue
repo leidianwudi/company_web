@@ -299,14 +299,14 @@ export default{
 	}
 	.more{
 		position:absolute;
-		bottom:0;
+		/*bottom:0;*/
 		right:0;
 		color:#009FE9;
 		cursor:pointer;
     font-size: 20px;
 	}
 
-  
+
   @media only screen and (max-width: 1200px){
     .banner{
       height: 350px;

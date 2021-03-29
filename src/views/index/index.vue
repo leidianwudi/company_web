@@ -15,7 +15,7 @@
 			<!-- <div>©2020 - 福建福汇聚科技有限公司  版权所有</div> -->
 			<div class="footer_column" style="margin-bottom:20px;">
 				<div>公司名称：福建福汇聚科技有限公司</div>
-				<div>地址：福建省福州</div>
+				<div>地址：福建省福州市</div>
 				<div>联系电话：13665051855</div>
 			</div>
 

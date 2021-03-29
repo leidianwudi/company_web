@@ -28,16 +28,16 @@
 								互联网品牌传播、数字营销、会员管理、业务服务支撑
 							</div>
 							<div class="banner_sort">
-								<div class="sort_box" style="width: auto">
+								<div class="_box" style="width: auto">
 									<div>网站建设</div>
 								</div>
-								<div class="sort_box" style="width: auto">
+								<div class="_box" style="width: auto">
 									<div>手机网站</div>
 								</div>
-								<div class="sort_box" style="width: auto">
+								<div class="_box" style="width: auto">
 									<div>小程序定制</div>
 								</div>
-								<div class="sort_box" style="width: auto">
+								<div class="_box" style="width: auto">
 									<div>公众号定制</div>
 								</div>
 							</div>
@@ -47,12 +47,12 @@
 			</el-carousel>
 		</div>
 
-		<div class="sort">
-			<div class="sort_column">
-				<div class="left_column">
-					<div class="sort_title" style="margin-bottom:10px;">PC  建站</div>
-					<div class="sort_tip">专注营销型、会SEO的网站</div>
-					<div class="sort_explain">
+		<div class="index">
+			<div class="index_column">
+				<div class="index_left_column">
+					<div class="index_title" style="margin-bottom:10px;">PC  建站</div>
+					<div class="index_tip">专注营销型、会SEO的网站</div>
+					<div class="index_explain">
 						<div>海量高颜值设计模板+自适应，支持全屏DIY</div>
 						<div>更专业SEO优化、Sitemap支持、保证百度收录</div>
 						<div>更有多语言、大数据，员工子账号等你来撩</div>
@@ -63,16 +63,16 @@
 					</div> -->
 				</div>
 
-				<div class="right_column sort_img1"></div>
+				<div class="index_right_column sort_img1"></div>
 			</div>
 
-			<div class="sort_column">
-				<div class="right_column sort_img2"></div>
+			<div class="index_column">
+				<div class="index_right_column sort_img2"></div>
 
-				<div class="left_column">
-					<div class="sort_title" style="margin-bottom:10px;">PC  商场</div>
-					<div class="sort_tip">助力商家轻松打造独立的营销型商城系统</div>
-					<div class="sort_explain">
+				<div class="index_left_column">
+					<div class="index_title" style="margin-bottom:10px;">PC  商场</div>
+					<div class="index_tip">助力商家轻松打造独立的营销型商城系统</div>
+					<div class="index_explain">
 						<div>一次搞定小程序商城+微商城+电脑商城</div>
 						<div>多终端覆盖，1000+全行业模板不断更新，个性化装修，优秀设计器</div>
 						<div>全方位管理商品，订单，会员，数据，多种营销功能引爆销量</div>
@@ -84,11 +84,11 @@
 				</div>
 			</div>
 
-			<div class="sort_column">
-				<div class="left_column">
-					<div class="sort_title" style="margin-bottom:10px;">H5  营销游戏</div>
-					<div class="sort_tip">一键创建、管理h5营销互动小游戏</div>
-					<div class="sort_explain">
+			<div class="index_column">
+				<div class="index_left_column">
+					<div class="index_title" style="margin-bottom:10px;">H5  营销游戏</div>
+					<div class="index_tip">一键创建、管理h5营销互动小游戏</div>
+					<div class="index_explain">
 						<div>微信吸粉、门店引流，海量精品游戏轻松管理</div>
 						<div>大转盘、抽奖、刮刮乐、答题、助力、砍价、投票、签到、节日等嗨翻天</div>
 						<div>超大访问量承载、360安全合作、大数据精准统计，舍我其谁</div>
@@ -99,16 +99,16 @@
 					</div> -->
 				</div>
 
-				<div class="right_column sort_img3"></div>
+				<div class="index_right_column sort_img3"></div>
 			</div>
 
-			<div class="sort_column">
-				<div class="right_column sort_img4"></div>
+			<div class="index_column">
+				<div class="index_right_column sort_img4"></div>
 
-				<div class="left_column">
-					<div class="sort_title" style="margin-bottom:10px;">官网小程序</div>
-					<div class="sort_tip">简单、易用的企业展示到店版+预约版</div>
-					<div class="sort_explain">
+				<div class="index_left_column">
+					<div class="index_title" style="margin-bottom:10px;">官网小程序</div>
+					<div class="index_tip">简单、易用的企业展示到店版+预约版</div>
+					<div class="index_explain">
 						<div>智慧名片、附近的小程序、公众号关联，小程序营销传播功能应有尽有</div>
 						<div>风格随心换、交互响应快、系统架构更安全，每一次打开都很快</div>
 						<div>只需体验3分钟，你就会爱上这款小程序工具</div>
@@ -207,7 +207,7 @@
 		margin-top:40px;
 		justify-content:space-between;
 	}
-	.sort_box{
+	._box{
 		width:68px;
 		height:68px;
 		background: url(../../assets/indexImg/boder.jpg)no-repeat;
@@ -218,20 +218,20 @@
 		line-height:1.8;
 	}
 
-	.sort{
+	.index{
 		max-width: 1200px;
 		min-width:1200px;
 		width:65%;
 		margin:auto;
 	}
-	.sort_column{
+	.index_column{
 		width:100%;
 		height:400px;
 		display:flex;
 		justify-content:space-between;
 		margin-bottom:100px;
 	}
-	.left_column{
+	.index_left_column{
 		width:40%;
 		height:400px;
 		display:flex;
@@ -239,26 +239,26 @@
 		justify-content:center;
 		align-items: flex-start;
 	}
-	.left_column>div{
+	.index_left_column>div{
 		margin-bottom:40px;
 		text-align:left;
 	}
-	.right_column{
+	.index_right_column{
 		width:55%;
 		height:400px;
 	}
-	.sort_title{
+	.index_title{
 		font-size:50px;
 	}
-	.sort_tip{
+	.index_tip{
 		font-size:25px;
 		color:#999999;
 	}
-	.sort_explain{
+	.index_explain{
 		font-size:20px;
 		color:#666666;
 	}
-	.sort_explain>div{
+	.index_explain>div{
 		margin-bottom:10px;
 	}
 	.sort_img1{
@@ -323,6 +323,7 @@
   @media screen and (max-width: 1200px){
     .banner{
       width: 100%;
+      height: 600px;
     }
     .banner_text{
       width: 100%;
@@ -334,26 +335,26 @@
     .banner_btn>button{
       font-size: 25px;
     }
-    .sort{
+    .index{
       width:100%;
       margin:auto;
     }
-    .sort_column{
+    .index_column{
       width:100%;
     }
-    .sort_title{
+    .index_title{
       font-size:40px;
     }
-    .sort_tip{
+    .index_tip{
       font-size:30px;
     }
-    .sort_explain{
+    .index_explain{
       font-size:25px;
     }
-    .left_column{
+    .index_left_column{
       margin: 0 20px;
     }
-    .right_column{
+    .index_right_column{
       margin: 0 20px;
     }
     .trade {

@@ -149,4 +149,29 @@ export default{
 		font-size:22px;
 		margin-bottom:80px;
 	}
+
+  @media screen and (max-width: 1200px) {
+    .banner{
+      width: 100%;
+      height: 340px;
+    }
+    .home{
+      font-size: 35px;
+      top:60%;
+    }
+    .sort_box{
+      padding: 100px 25px;
+    }
+    .sort_title{
+      font-size: 50px;
+    }
+    .sort_explain{
+      font-size:25px;
+      line-height:2;
+    }
+    .sort_titile{
+      font-size: 40px;
+    }
+  }
+
 </style>

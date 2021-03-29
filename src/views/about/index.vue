@@ -27,41 +27,41 @@
 			</div>
 		</div>
 
-		<div class="sort">
-			<div class="sort_column">
-				<div class="left_column">
-					<div class="sort_title" style="margin-bottom:10px;">企业文化</div>
+		<div class="about">
+			<div class="about_column">
+				<div class="about_left_column">
+					<div class="about_title" style="margin-bottom:10px;">企业文化</div>
 					<div>
-            <div class="sort_item">愿景</div>
-						<div class="sort_explain">帮助商家打造互联网营销闭环</div>
+            <div class="about_item">愿景</div>
+						<div class="about_explain">帮助商家打造互联网营销闭环</div>
 					</div>
 
 					<div>
-						<div class="sort_item">使命</div>
-						<div class="sort_explain">用科技成就10000家有文化的品牌，用智慧服务全球海内外千万商家。</div>
+						<div class="about_item">使命</div>
+						<div class="about_explain">用科技成就10000家有文化的品牌，用智慧服务全球海内外千万商家。</div>
 					</div>
 
 					<div>
-						<div class="sort_item">价值观</div>
-						<div class="sort_explain">正直：尊重平等，积极乐观，待人以诚。</div>
-						<div class="sort_explain">务实：崇尚实干，开放包容，实事求是，专注。</div>
-						<div class="sort_explain">持续改进：热衷分享，敢于试错，乐于进取，拥抱变化。</div>
-						<div class="sort_explain">坦诚合作：对事不对人，互信互助，团结友爱。</div>
+						<div class="about_item">价值观</div>
+						<div class="about_explain">正直：尊重平等，积极乐观，待人以诚。</div>
+						<div class="about_explain">务实：崇尚实干，开放包容，实事求是，专注。</div>
+						<div class="about_explain">持续改进：热衷分享，敢于试错，乐于进取，拥抱变化。</div>
+						<div class="about_explain">坦诚合作：对事不对人，互信互助，团结友爱。</div>
 					</div>
 
 					<div>
-						<div class="sort_item">经营理念</div>
-						<div class="sort_explain">拒绝脸谱化，与客户一同成长，不断完善产品和服务，助力客户企业不断发展。</div>
+						<div class="about_item">经营理念</div>
+						<div class="about_explain">拒绝脸谱化，与客户一同成长，不断完善产品和服务，助力客户企业不断发展。</div>
 					</div>
 
 					<div>
-						<div class="sort_item">管理理念</div>
-						<div class="sort_explain">充分尊重和信任员工，建立互信合作的团队，达到个人和公司的双赢。</div>
+						<div class="about_item">管理理念</div>
+						<div class="about_explain">充分尊重和信任员工，建立互信合作的团队，达到个人和公司的双赢。</div>
 					</div>
 
 				</div>
 
-				<div class="right_column sort_img"></div>
+				<div class="about_right_column sort_img"></div>
 			</div>
 		</div>
 
@@ -140,13 +140,13 @@
 		text-indent:2em;
 	}
 
-  .sort{
+  .about{
 		max-width:1200px;
 		min-width:1200px;
 		width:60%;
 		margin:auto;
 	}
-	.sort_column{
+	.about_column{
 		width:100%;
 		height:800px;
 		display:flex;
@@ -154,7 +154,7 @@
 		margin-bottom:100px;
 	}
 
-	.left_column{
+	.about_left_column{
 		width:48%;
 		height:800px;
 		display:flex;
@@ -162,25 +162,25 @@
 		justify-content:center;
 		align-items: flex-start;
 	}
-	.left_column>div{
+	.about_left_column>div{
 		margin-bottom:20px;
 		text-align:left;
 	}
-	.right_column{
+	.about_right_column{
 		width:50%;
 		height:800px;
 	}
-	.sort_title{
+	.about_title{
 		font-size:40px;
 	}
-	.sort_explain{
+	.about_explain{
 		font-size:20px;
     line-height:1.8;
 	}
-	.sort_explain>div{
+	.about_sort_explain>div{
 		margin-bottom:5px;
 	}
-  .sort_item{
+  .about_item{
     font-size: 25px;
   }
 	.sort_img{
@@ -241,14 +241,14 @@
       line-height:2;
       text-indent:3em;
     }
-    .sort{
+    .about{
       width: 100%;
     }
-    .sort_column{
+    .about_column{
       width:100%;
       height:1500px;
     }
-    .left_column{
+    .about_left_column{
       width:100%;
       height:1500px;
       padding: 0 15px;
@@ -256,19 +256,19 @@
     .left_column>div{
       margin-bottom:10px;
     }
-    .sort_item{
+    .about_item{
       font-size:40px;
     }
-    .right_column{
+    .about_right_column{
       margin-top: 300px;
       width:100%;
       height:1200px;
       padding: 0 50px;
     }
-    .sort_title{
+    .about_title{
       font-size:50px;
     }
-    .sort_explain{
+    .about_explain{
       font-size:35px;
     }
     .sort_explain>div{
